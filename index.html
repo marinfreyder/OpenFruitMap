@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa volně rostoucích plodů</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="fruit-icon">🍎</span>
+                    Mapa volně rostoucích plodů
+                </h1>
+                <p class="subtitle">Objevte přírodní poklady ve vašem okolí</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar with filters -->
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <h3 class="filter-title">
+                        <span class="filter-icon">🔍</span>
+                        Filtry
+                    </h3>
+                    
+                    <!-- Search by location -->
+                    <div class="search-group">
+                        <label for="location-search">Vyhledat místo:</label>
+                        <div class="search-input-group">
+                            <input type="text" id="location-search" placeholder="Zadejte město nebo adresu...">
+                            <button id="search-btn" class="search-button">
+                                <span>🔍</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Fruit type filters -->
+                    <div class="filter-group">
+                        <h4>Typ plodu:</h4>
+                        <div class="checkbox-grid" id="fruit-filters">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Action buttons -->
+                    <div class="action-buttons">
+                        <button id="load-data-btn" class="primary-button">
+                            <span class="button-icon">📍</span>
+                            Načíst data v oblasti
+                        </button>
+                        <button id="clear-data-btn" class="secondary-button">
+                            <span class="button-icon">🗑️</span>
+                            Vymazat
+                        </button>
+                        <button id="my-location-btn" class="secondary-button">
+                            <span class="button-icon">📍</span>
+                            Moje poloha
+                        </button>
+                        <button id="auto-load-toggle" class="secondary-button">
+                            <span class="button-icon">🔄</span>
+                            Auto-načítání: ZAP
+                        </button>
+                    </div>
+
+                    <!-- Statistics -->
+                    <div class="stats-section">
+                        <h4>Statistiky:</h4>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number" id="total-count">0</span>
+                                <span class="stat-label">Celkem nalezeno</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="visible-count">0</span>
+                                <span class="stat-label">Zobrazeno</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Map container -->
+            <div class="map-container">
+                <div id="map" class="map"></div>
+                
+                <!-- Loading overlay -->
+                <div id="loading-overlay" class="loading-overlay hidden">
+                    <div class="loading-spinner">
+                        <div class="spinner"></div>
+                        <p>Načítám data...</p>
+                    </div>
+                </div>
+
+                <!-- Map controls -->
+                <div class="map-controls">
+                    <button id="toggle-sidebar" class="map-control-btn">
+                        <span>☰</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Info popup template -->
+    <template id="popup-template">
+        <div class="popup-content">
+            <div class="popup-header">
+                <span class="popup-icon"></span>
+                <h3 class="popup-title"></h3>
+            </div>
+            <div class="popup-body">
+                <div class="popup-info"></div>
+                <div class="popup-tags"></div>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
